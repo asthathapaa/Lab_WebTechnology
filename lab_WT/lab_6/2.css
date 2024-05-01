@@ -1,0 +1,65 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: 8px;
+}
+
+    nav{
+        background-color: black;
+       padding:20px 0px;
+       font-family: cursive;
+       position: sticky;
+       top: 2px;
+       margin: 2px;
+       border: 20px;
+       
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 10px;
+    }
+    a:hover{
+        background-color: rosybrown;
+    }
+    #active{
+        background-color: red;
+    }
+    input{
+       position: absolute;
+       width: 30% ;
+       right: 10px;
+       background-image:url(search-171.png);
+    background-repeat: no-repeat;  
+background-size: 20px;
+border-radius: 10px 12px; }
+   img{
+    position: absolute;
+    right: 30px;
+   top:10px;
+    bottom: 10px;
+
+  
+   }
+.Container{
+    display: flex;
+}
+.A,.B,.C{
+    text-align: center;
+    width: 50%;
+    padding:50px ;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+    ;
+   
+}
+

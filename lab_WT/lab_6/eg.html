@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS for the navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style for the navigation links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Style for the dropdown menu */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        /* Style for the dropdown button */
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: inherit;
+            margin: 0;
+            padding: 14px 16px;
+            cursor: pointer;
+        }
+
+        /* Style for the dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* Change the background color of the dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+                <a href="#service1">Service 1</a>
+                <a href="#service2">Service 2</a>
+                <a href="#service3">Service 3</a>
+            </div>
+        </div>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <h1>Dropdown Navigation Bar Example</h1>
+    <p>This is an example of a dropdown navigation bar.</p>
+</body>
+</html>
